@@ -13,6 +13,8 @@ public class Main {
 		System.out.println("Desenho quadrado: ");
 		primeiroQuadrado.desenhar();
 		
+		//**********Retangulo******************//
+		
 		retangulo primeiroRetangulo = new retangulo();
 		primeiroRetangulo.setAltura(6);
 		primeiroRetangulo.setLado(12);
@@ -23,6 +25,8 @@ public class Main {
 		
 		System.out.println("Desenho retangulo: ");
 		primeiroRetangulo.desenhar();
+		
+		//**********Triangulo*******************//
 		
 		triangulo primeiroTriangulo = new triangulo();
 		primeiroTriangulo.setAltura(40);
